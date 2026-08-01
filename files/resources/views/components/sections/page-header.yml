@@ -1,0 +1,45 @@
+title: Page header
+description: The opening eyebrow, headline, and optional fact row on inner pages
+fields:
+    eyebrow:
+        type: text
+        label: Eyebrow
+        default: "About"
+    heading:
+        type: text
+        label: Headline
+        default: "A studio built to finish things."
+    body:
+        type: textarea
+        label: Standfirst
+        description: Leave empty to hide it.
+        rows: 4
+        default: ""
+    showMeta:
+        type: toggle
+        label: Show the fact row
+        default: "0"
+    metaOneLabel:
+        type: text
+        label: Fact one — label
+        default: "Founded"
+    metaOneValue:
+        type: text
+        label: Fact one — value
+        default: "2017"
+    metaTwoLabel:
+        type: text
+        label: Fact two — label
+        default: "Team"
+    metaTwoValue:
+        type: text
+        label: Fact two — value
+        default: "Nine people"
+    metaThreeLabel:
+        type: text
+        label: Fact three — label
+        default: "Based"
+    metaThreeValue:
+        type: text
+        label: Fact three — value
+        default: "Lisbon · Remote"

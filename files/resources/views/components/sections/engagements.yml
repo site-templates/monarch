@@ -1,0 +1,72 @@
+title: Engagement models
+description: Three fixed-scope ways to work together; one can be featured on ink
+fields:
+    eyebrow:
+        type: text
+        label: Eyebrow
+        default: "Working together"
+    heading:
+        type: text
+        label: Heading
+        default: "Three ways to start."
+    body:
+        type: textarea
+        label: Supporting copy
+        rows: 3
+        default: "Every engagement is fixed-scope and fixed-price. No hourly billing, no change orders, no surprises in month three."
+    engagements:
+        type: repeater
+        label: Engagements
+        add_button_label: "Add engagement"
+        item_label: name
+        sub_fields:
+            name:
+                type: text
+                label: Name
+                default: "New engagement"
+            description:
+                type: textarea
+                label: Description
+                rows: 3
+                default: "Who this shape of engagement is for."
+            price:
+                type: text
+                label: Price
+                default: "€20k"
+            priceNote:
+                type: text
+                label: Price note
+                default: "Fixed, invoiced in two parts"
+            pointOne:
+                type: text
+                label: Inclusion one
+                default: "The first inclusion"
+            pointTwo:
+                type: text
+                label: Inclusion two
+                default: "The second inclusion"
+            pointThree:
+                type: text
+                label: Inclusion three
+                default: "The third inclusion"
+            pointFour:
+                type: text
+                label: Inclusion four
+                default: "The fourth inclusion"
+            featured:
+                type: toggle
+                label: Feature this one
+                description: Inverts the card to ink and shows the badge.
+                default: "0"
+            badge:
+                type: text
+                label: Badge text
+                default: "Most chosen"
+            ctaText:
+                type: text
+                label: Button text
+                default: "Start here"
+            ctaLink:
+                type: url
+                label: Button link
+                default: "mailto:studio@monarch.design"

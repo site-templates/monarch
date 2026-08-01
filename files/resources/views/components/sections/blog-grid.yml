@@ -1,0 +1,43 @@
+title: Journal index
+description: Every entry as a wide editorial row — cover beside copy
+fields:
+    posts:
+        type: repeater
+        label: Entries
+        source: posts
+        add_button_label: "Add entry"
+        item_label: title
+        sub_fields:
+            title:
+                type: text
+                label: Title
+                default: "New entry"
+            excerpt:
+                type: textarea
+                label: Excerpt
+                rows: 3
+                default: "A sentence or two on what this entry covers."
+            category:
+                type: text
+                label: Category
+                default: "Notes"
+            dateFormatted:
+                type: text
+                label: Date
+                default: "January 2026"
+            readTime:
+                type: text
+                label: Read time
+                default: "4 min read"
+            image:
+                type: image
+                label: Cover image
+                default: "/images/journal-1.jpg"
+            imageAlt:
+                type: text
+                label: Cover description
+                default: "Cover image"
+            link:
+                type: url
+                label: Link
+                default: "/journal/new-entry"

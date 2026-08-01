@@ -1,0 +1,72 @@
+[
+    {
+        "title": "The six-week rule, and what it cost us to learn it",
+        "slug": "six-week-rule",
+        "excerpt": "We spent eleven months on a project that should have taken two. The fix was not better estimation — it was refusing to quote anything longer than six weeks.",
+        "description": "Why Monarch quotes fixed six-week blocks instead of estimating by the hour, and what changed in the work when we did.",
+        "category": "Process",
+        "dateFormatted": "January 2026",
+        "readTime": "6 min read",
+        "author": "Marta Ferreira",
+        "image": "/images/journal-1.jpg",
+        "imageAlt": "A printed wireframe grid on bone paper with a black fineliner across it",
+        "link": "/journal/six-week-rule",
+        "content": "<p class='lead'>In 2018 we took on a project we estimated at nine weeks. It shipped eleven months later. Nobody behaved badly and nothing went wrong in a way you could point at. It just kept not being finished.</p><p>We did the usual post-mortem and reached the usual conclusion: we had underestimated. So we started padding. The next quote was fourteen weeks for work we thought was nine, and that one took seven months.</p><p>The estimate was never the problem. The problem was that an open-ended timeline is an invitation, and every project accepts it. Someone always has one more idea, and when there is time left on the clock there is no reason to say no.</p><h2>What we changed</h2><p>We stopped estimating and started constraining. Every engagement is now quoted as a fixed six-week block at a fixed price. If the work does not fit in six weeks, the work is wrong — not the number.</p><p>That sounds like a scheduling change. It is actually a scoping change, because it moves the hard conversation to week one, where it is cheap, instead of week nine, where it is expensive and personal.</p><blockquote>The deadline is not there to make us work faster. It is there to make us decide sooner.<cite>Something Sam said in 2019 that we have been repeating since</cite></blockquote><h2>What it looks like in practice</h2><p>The first two days are workshops with everyone who can say yes. We leave with two documents: a one-page scope, and a list of everything we have agreed not to build. The second list is usually longer and it is the one people re-read.</p><ul><li>If a new idea arrives in week three, it goes on the not-doing list. It can be the first thing in the next block.</li><li>If we are behind in week four, we cut scope, never quality. The scope was always the variable.</li><li>If we finish early, we ship early. We have never once been asked for the difference back.</li></ul><h2>The part we did not expect</h2><p>Clients like it more than we thought they would. A fixed price and a fixed date turns out to be worth more to most founders than the theoretical possibility of getting a slightly bigger v1 for the same money.</p><p>Our average project length dropped by about a third. The products got smaller. As far as we can tell from what happened after launch, they also got better.</p>"
+    },
+    {
+        "title": "Scope is the design",
+        "slug": "scope-is-the-design",
+        "excerpt": "By the time you are choosing typefaces, every important decision has already been made. Here is where they actually get made, and who should be in the room.",
+        "description": "The case for treating scope as the primary design decision rather than a project-management concern.",
+        "category": "Strategy",
+        "dateFormatted": "December 2025",
+        "readTime": "5 min read",
+        "author": "Kenji Watanabe",
+        "image": "/images/journal-2.jpg",
+        "imageAlt": "A bone plaster wall covered in pinned index cards and printed interface screens",
+        "link": "/journal/scope-is-the-design",
+        "content": "<p class='lead'>Ask most teams when the design work starts and they will point at the moment someone opens a design tool. By then the product has already been designed. What is left is decoration.</p><p>The decisions that determine whether a product is any good are made earlier and more quietly: what it is for, who it is for, what it refuses to do, and what has to be true for anyone to bother switching. Those are design decisions. They just do not look like design decisions, so they get made in passing, by whoever happened to be in the meeting.</p><h2>The not-doing list</h2><p>Every engagement we run produces two documents in the first week. One is a scope. The other is a list of things we have explicitly decided not to build, each with a sentence saying why.</p><p>The second document is the one that gets read. A scope tells people what is coming; a not-doing list tells them the argument is over. It converts a hundred future disagreements into one uncomfortable afternoon.</p><h2>Who has to be in the room</h2><p>Everyone who can say yes, and nobody who cannot. That is a smaller group than most companies expect — usually three or four people. If the group is bigger than six, someone in it does not have authority, and their presence will turn decisions into consultations.</p><ul><li>The person who owns the number the product is meant to move.</li><li>The person who will answer for it if it fails.</li><li>The person who has spoken to the most customers this month.</li><li>Whoever is going to build it.</li></ul><h2>What good looks like</h2><p>You know the scope is right when someone in the room is slightly unhappy about something being cut, and cannot make an argument for keeping it. That is the feeling of a decision actually being made rather than deferred.</p><p>You know it is wrong when everybody leaves pleased. It means nothing was cut, which means nothing was decided, which means it will all get decided again in week five when it is expensive.</p>"
+    },
+    {
+        "title": "What we learned rebuilding Halcyon",
+        "slug": "rebuilding-halcyon",
+        "excerpt": "Four views of the same data, none of them good. Ten weeks later there was one, and activation went up 38%. A note on why removing features is so hard to sell.",
+        "description": "A case study on rebuilding Halcyon's scheduling product around a single planning surface.",
+        "category": "Case study",
+        "dateFormatted": "November 2025",
+        "readTime": "7 min read",
+        "author": "Marta Ferreira",
+        "image": "/images/journal-3.jpg",
+        "imageAlt": "Two people talking across a pale oak meeting table",
+        "link": "/journal/rebuilding-halcyon",
+        "content": "<p class='lead'>Halcyon came to us with a scheduling product that had four ways to look at the same week: a calendar, a list, a board, and a timeline. Each had been built for a specific customer who had asked for it. Each was somebody's favourite.</p><p>Their problem was not that any one view was bad. It was that new users had to choose one before they understood the product well enough to choose. Fewer than half of them ever came back.</p><h2>The uncomfortable week</h2><p>We spent the first week watching eleven people try to schedule their first week of work. Nine of them opened the view selector, hesitated, and picked whichever was first. Two closed the tab.</p><p>The finding was not subtle. What was hard was the conversation afterwards, because every view had an internal champion and a customer who had asked for it by name.</p><blockquote>We were not arguing about the interface. We were arguing about which promises we were allowed to break.<cite>Dana Okafor, co-founder of Halcyon</cite></blockquote><h2>What replaced it</h2><p>One planning surface. A single canvas showing the week, where the density of what you are looking at changes as you zoom rather than switching to a different screen. The board people got their columns back as a grouping control. The timeline people got a horizontal zoom.</p><ul><li>Onboarding went from eleven steps to four.</li><li>The view selector was removed entirely — no setting, no migration path, no legacy mode.</li><li>Two features that fewer than 1% of accounts used were deleted rather than ported.</li></ul><h2>The result, and the caveat</h2><p>Activation in the quarter after launch was up 38%. Support tickets about scheduling dropped by roughly two-thirds.</p><p>The caveat is worth saying plainly: four accounts cancelled, and two of them wrote to say why. Removing a feature is never free, and any case study that tells you otherwise is leaving something out. The trade was clearly worth it. It was still a trade.</p>"
+    },
+    {
+        "title": "A brand your team can actually use",
+        "slug": "brand-your-team-can-use",
+        "excerpt": "Most identity work is delivered as a PDF nobody opens twice. The test of a brand system is whether a non-designer can apply it correctly on a Friday afternoon.",
+        "description": "How Monarch delivers brand identity as a usable system rather than a guidelines document.",
+        "category": "Brand",
+        "dateFormatted": "October 2025",
+        "readTime": "5 min read",
+        "author": "Adaeze Nwosu",
+        "image": "/images/journal-4.jpg",
+        "imageAlt": "Stacked brand guideline booklets and paper swatches on bone linen",
+        "link": "/journal/brand-your-team-can-use",
+        "content": "<p class='lead'>There is a version of brand work that ends with a beautiful eighty-page document, a presentation everyone enjoys, and a company that goes on making things that look nothing like it. I have delivered that document. It is a lovely artefact and a poor tool.</p><p>The problem is that guidelines describe a brand to someone who already understands it. What most teams need is something closer to a set of defaults — decisions already made, in the places where they will actually be making things.</p><h2>The Friday afternoon test</h2><p>Here is the only benchmark I trust. It is 5pm on a Friday. Someone in sales needs a one-page PDF for a customer call on Monday. They are not a designer and they are not going to read anything.</p><p>Can they produce something on-brand in fifteen minutes? If the answer is no, the identity does not exist yet, however good the logo is.</p><h2>What we deliver instead</h2><ul><li>Colour and type as design tokens, not swatch images — so they can be imported, not eyeballed.</li><li>Templates for the ten things the company actually makes, built in the tools it already uses.</li><li>A voice guide made of real before-and-after sentences from their own writing, with no adjectives in it.</li><li>The mark in every format anyone will plausibly ask for, named so that the right one is obvious.</li></ul><h2>Rules, sparingly</h2><p>Every rule in a brand system is a small tax on everyone who uses it. Some are worth paying: consistent type, a fixed palette, one mark used one way. Many are not.</p><blockquote>Write down the three rules that matter and let everything else be a default someone can override.</blockquote><p>A brand that is slightly inconsistent because people are using it beats one that is perfectly consistent inside a PDF and absent everywhere else.</p>"
+    },
+    {
+        "title": "Why we stopped writing specifications",
+        "slug": "we-stopped-writing-specs",
+        "excerpt": "We wrote them for a year. Then we noticed we had stopped reading them. What replaced them was one page and a deployed URL every Friday.",
+        "description": "The case against detailed specification documents, and the two things Monarch replaced them with.",
+        "category": "Process",
+        "dateFormatted": "September 2025",
+        "readTime": "4 min read",
+        "author": "Sam Ridley",
+        "image": "/images/journal-5.jpg",
+        "imageAlt": "A laptop and notebook on a bare oak desk in hard afternoon light",
+        "link": "/journal/we-stopped-writing-specs",
+        "content": "<p class='lead'>For about a year we wrote proper specifications. Thirty or forty pages, every screen described, every state enumerated. They took a week to write and they were genuinely good documents.</p><p>Then I went looking for something in one, six weeks into a build, and realised I had not opened it since the day it was signed. Neither had anyone else. We asked the client. They had not either.</p><h2>What a spec is actually for</h2><p>Two things, mostly. It creates a shared understanding at the moment it is written, and it settles arguments later. The first is real and valuable. The second almost never happens, because by the time an argument comes up the spec is out of date and everybody knows it.</p><p>So we were spending a week producing a document whose useful life was the afternoon we discussed it.</p><h2>The two things that replaced it</h2><ul><li><strong>A one-page scope.</strong> What we are building, what we are not, and the number it has to move. Short enough that people re-read it, which is the entire point.</li><li><strong>A deployed URL every Friday.</strong> From week two, there is something real to click. Nobody argues about a spec when they can argue about the thing.</li></ul><h2>What we lost</h2><p>Being honest about the trade: we lost a certain kind of contractual clarity. When a disagreement comes up about whether something was in scope, the one-pager is less decisive than forty pages would have been.</p><p>In practice this has cost us three uncomfortable conversations in two years, and it saved a week of writing on every project. We will take that trade. But if you are working somewhere the relationship is adversarial, keep the spec — it is doing a job the one-pager cannot.</p>"
+    }
+]

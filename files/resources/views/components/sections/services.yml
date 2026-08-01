@@ -1,0 +1,50 @@
+title: Capability bento
+description: The what-we-do grid — two wide cards above three narrow ones
+fields:
+    eyebrow:
+        type: text
+        label: Eyebrow
+        default: "What we do"
+    heading:
+        type: text
+        label: Heading
+        default: "Four disciplines, one team, no handoffs."
+    body:
+        type: textarea
+        label: Supporting copy
+        rows: 3
+        default: "The people who decide what to build are the people who build it. That is the whole trick."
+    services:
+        type: repeater
+        label: Capabilities
+        add_button_label: "Add capability"
+        item_label: name
+        sub_fields:
+            name:
+                type: text
+                label: Name
+                default: "New capability"
+            description:
+                type: textarea
+                label: Description
+                rows: 3
+                default: "What this capability covers and what a client gets from it."
+            meta:
+                type: text
+                label: Footnote
+                description: The small line beside the arrow — typically a duration.
+                default: "2–4 weeks"
+            icon:
+                type: select
+                label: Glyph
+                options:
+                    compass: Compass
+                    spark: Spark
+                    layers: Layers
+                    code: Code
+                    pulse: Pulse
+                default: "compass"
+            link:
+                type: url
+                label: Link
+                default: "/services"

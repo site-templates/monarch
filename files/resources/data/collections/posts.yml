@@ -1,0 +1,16 @@
+# Column types for the journal collection — the Content editor reads this to
+# decide which control each field gets. `content` is the entry body, edited as
+# rich text and printed unescaped by the dynamic entry page.
+fields:
+    title: text
+    slug: text
+    excerpt: textarea
+    description: textarea
+    category: text
+    dateFormatted: text
+    readTime: text
+    author: text
+    image: image
+    imageAlt: text
+    link: url
+    content: richtext

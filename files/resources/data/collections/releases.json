@@ -1,0 +1,68 @@
+[
+    {
+        "date": "January 2026",
+        "version": "Log 018",
+        "tag": "Shipped",
+        "kind": "shipped",
+        "title": "Halcyon 2.0 is live",
+        "description": "Ten weeks with the Halcyon team, rebuilding the scheduling product around a single planning surface instead of four disconnected screens. Activation in the first quarter is up 38%.",
+        "pointOne": "One planning canvas replaced the calendar, list, board, and timeline views",
+        "pointTwo": "Onboarding cut from eleven steps to four",
+        "pointThree": "Handover complete — Halcyon's two engineers now own the repository"
+    },
+    {
+        "date": "December 2025",
+        "version": "Log 017",
+        "tag": "Studio",
+        "kind": "note",
+        "title": "We are booking from March",
+        "description": "Two engagements at a time is still the rule, so the calendar has moved out. If you are planning something for spring, this is the month to talk.",
+        "pointOne": "Two Build slots open in March and April",
+        "pointTwo": "Strategy sprints can usually start within three weeks",
+        "pointThree": "Partner seats are full until June"
+    },
+    {
+        "date": "November 2025",
+        "version": "Log 016",
+        "tag": "Shipped",
+        "kind": "shipped",
+        "title": "Ledgerly's brand, end to end",
+        "description": "A four-week identity for a bookkeeping tool that had outgrown its first logo by about three years. Mark, type, colour, voice, and the templates their team uses weekly.",
+        "pointOne": "New wordmark and mark, drawn from scratch",
+        "pointTwo": "A colour system that survives dark mode and print",
+        "pointThree": "Nine templates covering everything they actually make"
+    },
+    {
+        "date": "September 2025",
+        "version": "Log 015",
+        "tag": "Studio",
+        "kind": "note",
+        "title": "Adaeze joins as brand designer",
+        "description": "We have wanted a dedicated brand practice for two years and were waiting for the right person rather than the available one. Adaeze came from an editorial studio in Lagos.",
+        "pointOne": "Brand engagements now run without a freelance bench",
+        "pointTwo": "Identity work available as a standalone four-week block",
+        "pointThree": "The studio is nine people, which is where it stays"
+    },
+    {
+        "date": "July 2025",
+        "version": "Log 014",
+        "tag": "Shipped",
+        "kind": "shipped",
+        "title": "Orbit Freight, six weeks flat",
+        "description": "A quoting tool for a freight brokerage that had been running on a spreadsheet with 41 tabs. Kickoff to production in six weeks, exactly as quoted.",
+        "pointOne": "Quote turnaround down from two hours to four minutes",
+        "pointTwo": "The spreadsheet is archived, not migrated — the scope said so",
+        "pointThree": "Built on infrastructure their one engineer can operate"
+    },
+    {
+        "date": "May 2025",
+        "version": "Log 013",
+        "tag": "Studio",
+        "kind": "note",
+        "title": "We stopped writing specifications",
+        "description": "After a year of quietly not reading our own documents, we replaced the spec with a one-page scope and a deployed URL every Friday. Projects got shorter.",
+        "pointOne": "Scope documents capped at one page, permanently",
+        "pointTwo": "Friday deploys from week two of every engagement",
+        "pointThree": "Average project length down by nine days"
+    }
+]

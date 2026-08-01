@@ -1,0 +1,74 @@
+# The visual editor's contract for components/nav.blade.php — these fields
+# surface under the Layout tab. Field names are camelCase, matching the props
+# they fill. Both link lists are site-wide, so they live in site.json and the
+# footer reads the same two keys.
+title: Menu capsule
+description: The signature capsule — the menu toggle, the wordmark, the mega panel, and the two calls to action
+fields:
+    brand:
+        type: text
+        label: Wordmark
+        default: "Monarch"
+    primaryLabel:
+        type: text
+        label: First column heading
+        default: "Pages"
+    primary:
+        type: repeater
+        label: First column links
+        source: site.menu_primary
+        add_button_label: "Add link"
+        item_label: text
+        sub_fields:
+            text:
+                type: text
+                label: Text
+                default: "New page"
+            url:
+                type: url
+                label: Link
+                default: "/"
+    secondaryLabel:
+        type: text
+        label: Second column heading
+        default: "Elsewhere"
+    secondary:
+        type: repeater
+        label: Second column links
+        source: site.menu_secondary
+        add_button_label: "Add link"
+        item_label: text
+        sub_fields:
+            text:
+                type: text
+                label: Text
+                default: "New link"
+            url:
+                type: url
+                label: Link
+                default: "/"
+    menuNote:
+        type: text
+        label: Panel footnote
+        description: The small line above the studio email inside the open menu.
+        default: "New work, twice a year."
+    menuEmail:
+        type: text
+        label: Studio email
+        default: "studio@monarch.design"
+    ctaText:
+        type: text
+        label: Primary button text
+        default: "Start a project"
+    ctaLink:
+        type: url
+        label: Primary button link
+        default: "/services"
+    callText:
+        type: text
+        label: Secondary button text
+        default: "Book a call"
+    callLink:
+        type: url
+        label: Secondary button link
+        default: "/about"

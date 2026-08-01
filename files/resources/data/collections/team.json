@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Marta Ferreira",
+        "role": "Founder, Creative Director",
+        "note": "Ran design at two Lisbon startups before deciding she preferred the first six weeks.",
+        "image": "/images/team-1.jpg"
+    },
+    {
+        "name": "Sam Ridley",
+        "role": "Principal Engineer",
+        "note": "Writes the boring code that is still running four years later.",
+        "image": "/images/team-2.jpg"
+    },
+    {
+        "name": "Adaeze Nwosu",
+        "role": "Brand Designer",
+        "note": "Draws type by hand first. Every single time.",
+        "image": "/images/team-3.jpg"
+    },
+    {
+        "name": "Kenji Watanabe",
+        "role": "Product Strategist",
+        "note": "Recovering management consultant. Now asks shorter questions.",
+        "image": "/images/team-4.jpg"
+    }
+]

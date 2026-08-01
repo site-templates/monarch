@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Product Strategy",
+        "description": "We work out what the thing is before anyone opens a design tool. Positioning, scope, the shape of the first release, and the one number that will tell you whether it worked.",
+        "meta": "2–3 weeks",
+        "icon": "compass",
+        "link": "/services"
+    },
+    {
+        "name": "Brand Identity",
+        "description": "Name, mark, type, colour, and voice — delivered as a system your own team can apply on a Tuesday afternoon without calling us first.",
+        "meta": "3–4 weeks",
+        "icon": "spark",
+        "link": "/services"
+    },
+    {
+        "name": "Product Design",
+        "description": "Every screen, state, and edge case, in a component library your engineers can build straight from.",
+        "meta": "4–8 weeks",
+        "icon": "layers",
+        "link": "/services"
+    },
+    {
+        "name": "Engineering",
+        "description": "We build it. Typed, tested, and deployed on infrastructure your team can take over.",
+        "meta": "6–12 weeks",
+        "icon": "code",
+        "link": "/services"
+    },
+    {
+        "name": "Growth Design",
+        "description": "Onboarding, activation, and pricing — the surfaces where most products quietly lose people.",
+        "meta": "Ongoing",
+        "icon": "pulse",
+        "link": "/services"
+    }
+]

@@ -1,0 +1,39 @@
+# The journal entry shell. Each entry's values come from the posts collection
+# (edit them under Content), so these fields describe what the layout expects
+# rather than the copy of any one entry.
+title: Journal entry layout
+description: The shell a single journal entry renders inside
+fields:
+    title:
+        type: text
+        label: Entry title
+        default: "Journal entry"
+    description:
+        type: textarea
+        label: Meta description
+        rows: 3
+        default: ""
+    category:
+        type: text
+        label: Category
+        default: "Notes"
+    dateFormatted:
+        type: text
+        label: Date
+        default: ""
+    readTime:
+        type: text
+        label: Read time
+        default: ""
+    author:
+        type: text
+        label: Author
+        default: "Monarch"
+    image:
+        type: image
+        label: Cover image
+        default: ""
+    imageAlt:
+        type: text
+        label: Cover description
+        default: ""

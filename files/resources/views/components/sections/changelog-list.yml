@@ -1,0 +1,51 @@
+title: Studio log
+description: Dated entries hung off a sticky date column, newest first
+fields:
+    releases:
+        type: repeater
+        label: Entries
+        source: releases
+        add_button_label: "Add entry"
+        item_label: title
+        sub_fields:
+            date:
+                type: text
+                label: Date
+                default: "January 2026"
+            version:
+                type: text
+                label: Sub-line
+                description: A version number, a quarter, or a short note.
+                default: "Log 01"
+            tag:
+                type: text
+                label: Tag
+                default: "Shipped"
+            kind:
+                type: select
+                label: Tag style
+                options:
+                    shipped: Accent
+                    note: Outline
+                default: "shipped"
+            title:
+                type: text
+                label: Title
+                default: "What happened"
+            description:
+                type: textarea
+                label: Description
+                rows: 4
+                default: "A paragraph on the entry — what shipped, what changed, what it means."
+            pointOne:
+                type: text
+                label: Detail one
+                default: "The first detail"
+            pointTwo:
+                type: text
+                label: Detail two
+                default: "The second detail"
+            pointThree:
+                type: text
+                label: Detail three
+                default: "The third detail"

@@ -1,0 +1,38 @@
+title: Questions
+description: A sticky heading beside a native accordion
+fields:
+    eyebrow:
+        type: text
+        label: Eyebrow
+        default: "Questions"
+    heading:
+        type: text
+        label: Heading
+        default: "The things every founder asks us in the first call."
+    showContact:
+        type: toggle
+        label: Show the contact prompt
+        default: "1"
+    contactText:
+        type: text
+        label: Contact prompt
+        default: "Still wondering? Write to us."
+    contactEmail:
+        type: text
+        label: Contact email
+        default: "studio@monarch.design"
+    faqs:
+        type: repeater
+        label: Questions
+        add_button_label: "Add question"
+        item_label: question
+        sub_fields:
+            question:
+                type: text
+                label: Question
+                default: "A new question"
+            answer:
+                type: textarea
+                label: Answer
+                rows: 4
+                default: "The answer, in two or three plain sentences."

@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Sprint",
+        "description": "Two weeks to work out what to build, for teams who already know they are building something.",
+        "price": "€12k",
+        "priceNote": "Fixed, invoiced in full up front",
+        "pointOne": "Two days of workshops with your team",
+        "pointTwo": "A one-page scope and a not-doing list",
+        "pointThree": "Positioning and the launch metric",
+        "pointFour": "A costed plan for the build",
+        "featured": "0",
+        "badge": "",
+        "ctaText": "Book a sprint",
+        "ctaLink": "mailto:studio@monarch.design"
+    },
+    {
+        "name": "Build",
+        "description": "Strategy, brand, design, and engineering through to a public launch. Our usual shape of work.",
+        "price": "€60k",
+        "priceNote": "Fixed, invoiced at kickoff and at launch",
+        "pointOne": "Everything in a Sprint, then six to twelve weeks of building",
+        "pointTwo": "Design and engineering running in the same week",
+        "pointThree": "A deployed URL every Friday from week two",
+        "pointFour": "Handover pairing and a month on call",
+        "featured": "1",
+        "badge": "Most chosen",
+        "ctaText": "Start a build",
+        "ctaLink": "mailto:studio@monarch.design"
+    },
+    {
+        "name": "Partner",
+        "description": "A standing two-day-a-week seat on your team, for companies past their first launch.",
+        "price": "€18k",
+        "priceNote": "Per month, three-month minimum",
+        "pointOne": "Two fixed days a week from the same two people",
+        "pointTwo": "Design and engineering, whichever the month needs",
+        "pointThree": "Your tools, your standups, your repository",
+        "pointFour": "Thirty days notice, either direction",
+        "featured": "0",
+        "badge": "",
+        "ctaText": "Talk it through",
+        "ctaLink": "mailto:studio@monarch.design"
+    }
+]

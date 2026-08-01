@@ -1,0 +1,30 @@
+title: Timeline
+description: The studio story hung off a vertical spine
+fields:
+    eyebrow:
+        type: text
+        label: Eyebrow
+        default: "The long version"
+    heading:
+        type: text
+        label: Heading
+        default: "How Monarch got here."
+    milestones:
+        type: repeater
+        label: Milestones
+        add_button_label: "Add milestone"
+        item_label: title
+        sub_fields:
+            year:
+                type: text
+                label: Year
+                default: "2026"
+            title:
+                type: text
+                label: Title
+                default: "What happened"
+            description:
+                type: textarea
+                label: Description
+                rows: 3
+                default: "A couple of sentences on what changed that year."

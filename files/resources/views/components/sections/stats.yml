@@ -1,0 +1,25 @@
+title: Proof rail
+description: A full-bleed ink band of four figures, split by hairlines
+fields:
+    showHeading:
+        type: toggle
+        label: Show the heading
+        default: "1"
+    heading:
+        type: text
+        label: Heading
+        default: "Nine years, one small team, and a habit of finishing."
+    stats:
+        type: repeater
+        label: Figures
+        add_button_label: "Add figure"
+        item_label: value
+        sub_fields:
+            value:
+                type: text
+                label: Figure
+                default: "100%"
+            label:
+                type: text
+                label: Caption
+                default: "What this figure measures"

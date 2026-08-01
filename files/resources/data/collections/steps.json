@@ -1,0 +1,20 @@
+[
+    {
+        "number": "01",
+        "kicker": "Week 1",
+        "title": "Decide",
+        "description": "Two days in a room with everyone who can say yes. We leave with a scope that fits on one page and a list of what we are deliberately not building."
+    },
+    {
+        "number": "02",
+        "kicker": "Weeks 2–5",
+        "title": "Make",
+        "description": "Design and engineering run in the same week, not in sequence. You see working software every Friday, on a real URL, from week two onward."
+    },
+    {
+        "number": "03",
+        "kicker": "Week 6",
+        "title": "Ship",
+        "description": "We launch it, watch the first hundred people use it, fix what breaks, and hand over a repository your team can keep building in."
+    }
+]

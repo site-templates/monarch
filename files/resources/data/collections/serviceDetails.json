@@ -1,0 +1,50 @@
+[
+    {
+        "number": "01",
+        "title": "Product Strategy",
+        "description": "The first two weeks decide the next two years. We pull the idea apart with the people who have to live with it, agree what the first release has to prove, and write down what we are deliberately leaving out.",
+        "duration": "2–3 weeks",
+        "price": "€12k",
+        "panelLabel": "What you get",
+        "pointOne": "A one-page scope for v1, and the explicit not-doing list beside it",
+        "pointTwo": "Positioning: who it is for, what it replaces, why now",
+        "pointThree": "The single metric that decides whether the launch worked",
+        "pointFour": "A week-by-week plan you could hand to another studio"
+    },
+    {
+        "number": "02",
+        "title": "Brand Identity",
+        "description": "A mark, a typeface, a palette, and a voice — but more usefully, the rules that let your own team apply them without asking permission. We build brands for people who will be using them at 6pm on a Friday.",
+        "duration": "3–4 weeks",
+        "price": "€18k",
+        "panelLabel": "What you get",
+        "pointOne": "Wordmark and mark, drawn as vectors in every format you need",
+        "pointTwo": "Type and colour system, specified as design tokens",
+        "pointThree": "Voice guide with real examples, not adjectives",
+        "pointFour": "Templates for the ten things you will actually make"
+    },
+    {
+        "number": "03",
+        "title": "Product Design",
+        "description": "Every screen, every state, every edge case — empty, loading, error, and the one nobody thought of. Delivered as a component library your engineers build straight from rather than interpret.",
+        "duration": "4–8 weeks",
+        "price": "€28k",
+        "panelLabel": "What you get",
+        "pointOne": "The full product designed to the last empty state",
+        "pointTwo": "A component library in code-ready tokens",
+        "pointThree": "Prototypes for anything that needed testing on real people",
+        "pointFour": "Weekly design reviews with whoever is building it"
+    },
+    {
+        "number": "04",
+        "title": "Engineering",
+        "description": "We build the thing. Typed end to end, tested where tests earn their keep, deployed on infrastructure your team can operate after we leave. No framework you have never heard of.",
+        "duration": "6–12 weeks",
+        "price": "€45k",
+        "panelLabel": "What you get",
+        "pointOne": "A production application in your own repository",
+        "pointTwo": "CI, staging, and a deploy your team can run",
+        "pointThree": "Documentation written for the engineer who joins next year",
+        "pointFour": "A week of pairing at handover, and a month on call after"
+    }
+]

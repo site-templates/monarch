@@ -1,0 +1,22 @@
+{
+    "name": "Monarch",
+    "dialect": "blade",
+    "description": "A bone-and-black product studio site built around an oversized menu capsule that sits beside the wordmark — split hero, offset statement, services bento, a dark testimonial, a studio journal, and a dated changelog, all lit by an electric lime accent.",
+    "icon": "🦋",
+    "repo": "https://github.com/site-templates/monarch",
+    "order": 19,
+    "category": "business",
+    "theme": "light",
+    "accent": "#dafd55",
+    "themeable": true,
+    "palette": "lime",
+    "fonts": "space-grotesk",
+    "appearance": "light",
+    "pages": [
+        "Home",
+        "About",
+        "Services",
+        "Journal",
+        "Changelog"
+    ]
+}

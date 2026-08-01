@@ -1,0 +1,50 @@
+title: Service rows
+description: One alternating two-column row per discipline, with a deliverables panel
+fields:
+    serviceDetails:
+        type: repeater
+        label: Disciplines
+        add_button_label: "Add discipline"
+        item_label: title
+        sub_fields:
+            number:
+                type: text
+                label: Index
+                default: "05"
+            title:
+                type: text
+                label: Title
+                default: "New discipline"
+            description:
+                type: textarea
+                label: Description
+                rows: 4
+                default: "What this discipline covers, and what a client walks away with."
+            duration:
+                type: text
+                label: Typical length
+                default: "4 weeks"
+            price:
+                type: text
+                label: Starting price
+                default: "€18k"
+            panelLabel:
+                type: text
+                label: Panel heading
+                default: "What you get"
+            pointOne:
+                type: text
+                label: Deliverable one
+                default: "The first deliverable"
+            pointTwo:
+                type: text
+                label: Deliverable two
+                default: "The second deliverable"
+            pointThree:
+                type: text
+                label: Deliverable three
+                default: "The third deliverable"
+            pointFour:
+                type: text
+                label: Deliverable four
+                default: "The fourth deliverable"

@@ -1,0 +1,39 @@
+title: Team
+description: A row of square portraits with names, roles, and a line each
+fields:
+    eyebrow:
+        type: text
+        label: Eyebrow
+        default: "The studio"
+    heading:
+        type: text
+        label: Heading
+        default: "Nine people. No account managers."
+    body:
+        type: textarea
+        label: Supporting copy
+        rows: 3
+        default: "You work with the people doing the work, every week, for the length of the engagement."
+    team:
+        type: repeater
+        label: People
+        add_button_label: "Add person"
+        item_label: name
+        sub_fields:
+            name:
+                type: text
+                label: Name
+                default: "New teammate"
+            role:
+                type: text
+                label: Role
+                default: "Designer"
+            note:
+                type: text
+                label: Note
+                description: One short line — a previous life, a specialism, a quirk.
+                default: "Previously somewhere interesting."
+            image:
+                type: image
+                label: Portrait
+                default: "/images/team-1.jpg"

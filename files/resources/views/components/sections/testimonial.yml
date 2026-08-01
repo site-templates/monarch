@@ -1,0 +1,53 @@
+title: Testimonial
+description: A single oversized quote on the ink panel, with an optional result figure
+fields:
+    eyebrow:
+        type: text
+        label: Eyebrow
+        default: "The receipts"
+    quote:
+        type: textarea
+        label: Quote
+        description: Leave the quotation marks off — the section adds them.
+        rows: 4
+        default: "They cut our roadmap in half and we launched a month early. The half they cut was the half we would have regretted."
+    name:
+        type: text
+        label: Name
+        default: "Dana Okafor"
+    role:
+        type: text
+        label: Role
+        default: "Co-founder, Halcyon"
+    image:
+        type: image
+        label: Portrait
+        default: "/images/portrait-quote.jpg"
+    imageAlt:
+        type: text
+        label: Portrait description
+        default: "Dana Okafor"
+    showMetric:
+        type: toggle
+        label: Show the result figure
+        default: "1"
+    metricValue:
+        type: text
+        label: Figure
+        default: "+38%"
+    metricLabel:
+        type: text
+        label: Figure caption
+        default: "Activation in the first quarter after launch"
+    showLink:
+        type: toggle
+        label: Show the link
+        default: "1"
+    linkText:
+        type: text
+        label: Link text
+        default: "Read the write-up"
+    linkUrl:
+        type: url
+        label: Link
+        default: "/journal"

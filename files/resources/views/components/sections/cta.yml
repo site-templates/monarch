@@ -1,0 +1,40 @@
+title: Closing call to action
+description: The full-bleed accent band that closes every page
+fields:
+    eyebrow:
+        type: text
+        label: Eyebrow
+        default: "Next"
+    heading:
+        type: text
+        label: Heading
+        default: "Tell us what you are trying to launch."
+    body:
+        type: textarea
+        label: Body copy
+        rows: 4
+        default: "One call, thirty minutes, no deck. If we are not the right studio for it we will say so and point you somewhere better."
+    ctaText:
+        type: text
+        label: Primary button text
+        default: "Start a project"
+    ctaLink:
+        type: url
+        label: Primary button link
+        default: "mailto:studio@monarch.design"
+    callText:
+        type: text
+        label: Secondary button text
+        default: "Read the process"
+    callLink:
+        type: url
+        label: Secondary button link
+        default: "/services"
+    showNote:
+        type: toggle
+        label: Show the availability note
+        default: "1"
+    note:
+        type: text
+        label: Availability note
+        default: "Booking new work from March 2026."

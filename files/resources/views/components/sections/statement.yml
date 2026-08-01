@@ -1,0 +1,35 @@
+title: Statement
+description: An offset editorial beat — a narrow eyebrow column beside oversized display copy
+fields:
+    eyebrow:
+        type: text
+        label: Eyebrow
+        default: "Introduction"
+    heading:
+        type: textarea
+        label: Statement
+        description: Set very large — two or three sentences at most.
+        rows: 4
+        default: "Most software fails long before it ships. It fails in the month nobody decided what it was for."
+    body:
+        type: textarea
+        label: Supporting copy
+        rows: 4
+        default: "We start every engagement by cutting the idea down to the one thing it has to do, then build outward from there. Fewer screens, fewer meetings, and a v1 that a real customer can actually use."
+    showLink:
+        type: toggle
+        label: Show the text link
+        default: "1"
+    linkText:
+        type: text
+        label: Link text
+        default: "How we work"
+    linkUrl:
+        type: url
+        label: Link
+        default: "/services"
+    showGrid:
+        type: toggle
+        label: Show the dotted grid
+        description: The faint engineering grid fading in behind the top of the section.
+        default: "1"

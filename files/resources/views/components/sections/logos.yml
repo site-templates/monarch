@@ -1,0 +1,17 @@
+title: Client strip
+description: A looping marquee of client names between the hero and the page body
+fields:
+    label:
+        type: text
+        label: Strip label
+        default: "Shipped with teams at"
+    logos:
+        type: repeater
+        label: Client names
+        add_button_label: "Add client"
+        item_label: name
+        sub_fields:
+            name:
+                type: text
+                label: Name
+                default: "New client"

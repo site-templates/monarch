@@ -1,0 +1,22 @@
+[
+    {
+        "number": "01",
+        "title": "Scope is the design",
+        "description": "Deciding what not to build is the highest-leverage act in the whole project. Everything after it is execution. We spend the first week there and we do not rush it."
+    },
+    {
+        "number": "02",
+        "title": "Ship weekly or you are guessing",
+        "description": "A design that has never been deployed is a hypothesis. From week two you get a real URL every Friday, because opinions about screenshots are worth very little."
+    },
+    {
+        "number": "03",
+        "title": "Small team, whole problem",
+        "description": "Handoffs are where intent goes to die. The same four or five people carry a project from the first conversation to the launch post, and they hold every part of it."
+    },
+    {
+        "number": "04",
+        "title": "Leave it better than a handover",
+        "description": "The end of an engagement should not be a cliff. Documented decisions, a codebase your team can read, and a month of availability afterwards for the questions that only show up later."
+    }
+]

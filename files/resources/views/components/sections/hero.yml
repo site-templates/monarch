@@ -1,0 +1,66 @@
+title: Split hero
+description: The opening beat — an editorial column beside a full-bleed photograph
+fields:
+    showRating:
+        type: toggle
+        label: Show the rating pill
+        default: "1"
+    ratingText:
+        type: text
+        label: Rating text
+        default: "Rated 4.9 by 40+ founders"
+    headingStart:
+        type: text
+        label: Headline — before the highlight
+        default: "We design and build"
+    headingHighlight:
+        type: text
+        label: Headline — highlighted words
+        description: These words sit on a solid accent block.
+        default: "software worth"
+    headingEnd:
+        type: text
+        label: Headline — after the highlight
+        default: "shipping."
+    body:
+        type: textarea
+        label: Body copy
+        rows: 4
+        default: "Monarch is a small studio in Lisbon. We take products from a blank file to a real, launched v1 — strategy, brand, interface, and the engineering underneath it."
+    ctaText:
+        type: text
+        label: Primary button text
+        default: "Start a project"
+    ctaLink:
+        type: url
+        label: Primary button link
+        default: "/services"
+    callText:
+        type: text
+        label: Secondary button text
+        default: "See our work"
+    callLink:
+        type: url
+        label: Secondary button link
+        default: "/journal"
+    image:
+        type: image
+        label: Hero photograph
+        default: "/images/hero.jpg"
+    imageAlt:
+        type: text
+        label: Photograph description
+        description: Read aloud by screen readers.
+        default: "The Monarch studio, late afternoon"
+    showStat:
+        type: toggle
+        label: Show the floating stat card
+        default: "1"
+    statValue:
+        type: text
+        label: Stat figure
+        default: "6 weeks"
+    statLabel:
+        type: text
+        label: Stat caption
+        default: "Median time from kickoff to a shipped v1"

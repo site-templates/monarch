@@ -1,0 +1,27 @@
+[
+    {
+        "year": "2017",
+        "title": "Two people and a shared desk",
+        "description": "Marta and Sam left their jobs the same month and took on one project — a booking tool for a chain of dive schools. It launched in five weeks and is still in service."
+    },
+    {
+        "year": "2019",
+        "title": "The six-week rule",
+        "description": "After a project ran eleven months we stopped quoting by the hour and started quoting fixed scope in six-week blocks. Nothing we have done since has changed the work more."
+    },
+    {
+        "year": "2021",
+        "title": "Engineering comes in-house",
+        "description": "We stopped handing designs to other people's developers. Design and engineering moved into the same week, and the gap between a mockup and a deploy went from months to days."
+    },
+    {
+        "year": "2023",
+        "title": "A studio of nine",
+        "description": "Brand and growth joined the practice. We turned down the chance to double again — nine is the largest number of people who can all still hold the whole project."
+    },
+    {
+        "year": "2026",
+        "title": "Forty-one launches in",
+        "description": "Two engagements at a time, six-week cycles, and a waiting list we are honest about. The shape has not changed much since 2019, which we take as a good sign."
+    }
+]

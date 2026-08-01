@@ -1,0 +1,26 @@
+[
+    {
+        "question": "What does a first engagement usually cost?",
+        "answer": "A two-week strategy sprint starts at €12,000. A full build — strategy, brand, design, and engineering through to launch — starts at €60,000. Both are fixed-price, quoted before we start, and invoiced in two parts."
+    },
+    {
+        "question": "Do you work with pre-seed companies?",
+        "answer": "Often. About a third of our work is a first product for a team of two or three. We ask for a real budget rather than equity, because studios that take equity end up prioritising the wrong clients."
+    },
+    {
+        "question": "Who actually does the work?",
+        "answer": "The people you meet in the first call. We are nine people and we do not subcontract. If a project needs a specialism we do not have, we say so and recommend someone."
+    },
+    {
+        "question": "What happens to the code afterwards?",
+        "answer": "It is yours from day one, in your GitHub organisation, with the deployment pipeline documented. We hand over with a week of pairing so your engineers are not reading it cold."
+    },
+    {
+        "question": "Can you work with our existing designers or engineers?",
+        "answer": "Yes, and it usually goes well. We will ask to agree who owns which decisions in week one, because that is the thing that goes wrong when two teams share a codebase."
+    },
+    {
+        "question": "How far ahead are you booked?",
+        "answer": "Typically six to ten weeks. Strategy sprints can sometimes start sooner because they need fewer people. Ask and we will tell you honestly."
+    }
+]

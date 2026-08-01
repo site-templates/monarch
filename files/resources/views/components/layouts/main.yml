@@ -1,0 +1,21 @@
+# The page shell — <head>, the menu capsule, and the footer. These fields
+# surface under the Layout tab; the page's own title and description are set
+# on each page's <x-layouts.main> tag.
+title: Page layout
+description: The document shell every page renders inside
+fields:
+    title:
+        type: text
+        label: Page title
+        description: Shown in the browser tab, before the site name.
+        default: "Home"
+    description:
+        type: textarea
+        label: Meta description
+        description: The one-line summary search engines show.
+        rows: 3
+        default: ""
+    showFooter:
+        type: toggle
+        label: Show the footer
+        default: "1"

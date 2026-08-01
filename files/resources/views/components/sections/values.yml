@@ -1,0 +1,30 @@
+title: Values list
+description: A hairline-ruled list of the studio's positions
+fields:
+    eyebrow:
+        type: text
+        label: Eyebrow
+        default: "How we think"
+    heading:
+        type: text
+        label: Heading
+        default: "Four opinions we keep running into."
+    values:
+        type: repeater
+        label: Values
+        add_button_label: "Add value"
+        item_label: title
+        sub_fields:
+            number:
+                type: text
+                label: Index
+                default: "05"
+            title:
+                type: text
+                label: Title
+                default: "A new position"
+            description:
+                type: textarea
+                label: Description
+                rows: 3
+                default: "Why the studio holds this position and what it changes about the work."

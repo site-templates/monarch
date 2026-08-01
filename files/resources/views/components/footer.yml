@@ -1,0 +1,89 @@
+# The visual editor's contract for components/footer.blade.php — surfaces
+# under the Layout tab. The two link columns read the same site.json keys the
+# menu capsule uses, so editing them in either place updates both.
+title: Footer
+description: The closing ink panel — statement, three link columns, and the oversized wordmark
+fields:
+    brand:
+        type: text
+        label: Wordmark
+        default: "Monarch"
+    statement:
+        type: textarea
+        label: Statement
+        rows: 3
+        default: "A product studio for ambitious software. Strategy, brand, design, and engineering, from one small team."
+    email:
+        type: text
+        label: Studio email
+        default: "studio@monarch.design"
+    sitemapLabel:
+        type: text
+        label: First column heading
+        default: "Pages"
+    sitemap:
+        type: repeater
+        label: First column links
+        source: site.menu_primary
+        add_button_label: "Add link"
+        item_label: text
+        sub_fields:
+            text:
+                type: text
+                label: Text
+                default: "New page"
+            url:
+                type: url
+                label: Link
+                default: "/"
+    elsewhereLabel:
+        type: text
+        label: Second column heading
+        default: "Elsewhere"
+    elsewhere:
+        type: repeater
+        label: Second column links
+        source: site.menu_secondary
+        add_button_label: "Add link"
+        item_label: text
+        sub_fields:
+            text:
+                type: text
+                label: Text
+                default: "New link"
+            url:
+                type: url
+                label: Link
+                default: "/"
+    socialLabel:
+        type: text
+        label: Third column heading
+        default: "Follow"
+    social:
+        type: repeater
+        label: Social links
+        source: site.social_links
+        add_button_label: "Add profile"
+        item_label: text
+        sub_fields:
+            text:
+                type: text
+                label: Text
+                default: "New profile"
+            url:
+                type: url
+                label: Link
+                default: "https://"
+    city:
+        type: text
+        label: Location line
+        default: "Lisbon · Remote"
+    legal:
+        type: text
+        label: Copyright line
+        default: "© 2026 Monarch Studio. All rights reserved."
+    showWordmark:
+        type: toggle
+        label: Show the oversized wordmark
+        description: The giant faded brand name above the copyright line.
+        default: "1"
