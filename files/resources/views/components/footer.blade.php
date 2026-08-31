@@ -53,7 +53,7 @@
                 <p class="text-xs font-semibold uppercase tracking-[0.14em] text-canvas/40">{{ $socialLabel }}</p>
                 <ul class="mt-5 flex flex-col gap-3">
                     @foreach ($social as $link)
-                        <li><a href="{{ $link->url }}" class="text-[15px] text-canvas/70 transition-colors duration-200 hover:text-accent-lift">{{ $link->text }}</a></li>
+                        <li><a href="{{ $link->url }}" target="_blank" rel="noopener" class="text-[15px] text-canvas/70 transition-colors duration-200 hover:text-accent-lift">{{ $link->text }}</a></li>
                     @endforeach
                 </ul>
             </div>
