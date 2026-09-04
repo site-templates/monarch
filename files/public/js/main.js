@@ -5,6 +5,10 @@
     2. The menu capsule: open/close, Escape, outside click, focus return.
     3. A data-scrolled flag on the header so the capsules deepen their shadow.
     4. Duplicating the marquee row so the loop is seamless.
+
+    Pages change in place (data-instant-navigation on <body>): the menu and
+    header (2, 3) bind once; the reveals and the marquee (1, 4) live inside
+    <main> and are torn down and set up again per page through setUp(root).
 */
 (function () {
     'use strict';
@@ -12,10 +16,16 @@
     var root = document.documentElement;
     var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 
+    // What the current <main> owns — released before the next one is set up.
+    var revealObserver = null;
+
+    // Closes the menu capsule; wired by initMenu once the capsule is found.
+    var closeMenu = function () {};
+
     /* ---------------------------------------------------------------- 1 */
 
-    function initReveals() {
-        var targets = document.querySelectorAll('[data-reveal]');
+    function initReveals(scope) {
+        var targets = scope.querySelectorAll('[data-reveal]');
 
         if (!targets.length) {
             return;
@@ -43,6 +53,8 @@
         targets.forEach(function (el) {
             observer.observe(el);
         });
+
+        revealObserver = observer;
     }
 
     /* ---------------------------------------------------------------- 2 */
@@ -90,6 +102,10 @@
             }
         });
 
+        closeMenu = function () {
+            setOpen(false);
+        };
+
         setOpen(false);
     }
 
@@ -116,8 +132,8 @@
 
     /* ---------------------------------------------------------------- 4 */
 
-    function initMarquee() {
-        document.querySelectorAll('[data-marquee-track]').forEach(function (track) {
+    function initMarquee(scope) {
+        scope.querySelectorAll('[data-marquee-track]').forEach(function (track) {
             if (track.dataset.marqueeReady) {
                 return;
             }
@@ -134,16 +150,32 @@
         });
     }
 
-    function boot() {
-        initReveals();
-        initMenu();
-        initHeaderState();
-        initMarquee();
+    /* ------------------------------------------------- inside <main> */
+
+    function tearDown() {
+        if (revealObserver) {
+            revealObserver.disconnect();
+            revealObserver = null;
+        }
     }
 
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', boot);
-    } else {
-        boot();
+    function setUp(scope) {
+        tearDown();
+        initReveals(scope);
+        initMarquee(scope);
     }
+
+    function boot() {
+        initMenu();
+        initHeaderState();
+        setUp(document);
+
+        document.addEventListener('instant:navigated', function (event) {
+            closeMenu();
+            setUp(event.detail.main);
+        });
+    }
+
+    // This file is deferred, so the page is already parsed.
+    boot();
 })();
